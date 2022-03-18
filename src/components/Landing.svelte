@@ -1,6 +1,6 @@
 <script>
     let promoItems = Array(3).fill({
-        image: '/assets/image2.jpg',
+        image: './assets/image2.jpg',
         text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sed varius tellus.'
     })
 </script>
@@ -42,7 +42,7 @@
 
             .image
                 flex: 50%
-                background: url('/assets/image1.jpg')
+                background: url('./assets/image1.jpg')
                 background-position: center
 
         .section2
