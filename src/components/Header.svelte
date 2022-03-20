@@ -1,5 +1,6 @@
 <script lang="ts">
     import { locale, toggleLanguage, } from "../stores";
+import Label from "./Label.svelte";
 
 </script>
 
@@ -9,8 +10,9 @@
     </div>
     <div>
         <!-- <button on:click={toggleLanguage}>{locale('🇷🇺', '🇬🇧')}</button> -->
-        <a href="/">{locale('Блог', 'Blog')}</a>
-        <a href="/">{locale('Войти', 'Login')}</a>
+        <a href="/"><Label values={["О НАС", "ABOUT US"]}/></a>
+        <a href="/"><Label values={["КОНТАКТЫ", "CONTACTS"]}/></a>
+        <a href="/"><Label values={["ВОЙТИ", "LOG IN"]}/></a>
     </div>
 </nav>
 
@@ -18,11 +20,19 @@
     .navigation 
         display: flex
         justify-content: space-between
-        padding: 10px
+        align-items: center
+        background-color: #EBB2E5
+        height: 74px
+        font-size: 18px
+        padding: 0 40px
 
         .logo
             font-weight: 1000
 
-        a:not(:last-child)
-            margin-right: 8px
+        a
+            text-decoration: none
+            color: #000
+
+            &:not(:last-child)
+                margin-right: 8px
 </style>
