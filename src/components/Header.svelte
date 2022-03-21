@@ -1,12 +1,12 @@
 <script lang="ts">
     import { locale, toggleLanguage, } from "../stores";
-import Label from "./Label.svelte";
+    import Label from "./Label.svelte";
 
 </script>
 
 <nav class="navigation">
     <div class="logo">
-        Math Courses
+        English Math
     </div>
     <div>
         <!-- <button on:click={toggleLanguage}>{locale('🇷🇺', '🇬🇧')}</button> -->
@@ -21,18 +21,17 @@ import Label from "./Label.svelte";
         display: flex
         justify-content: space-between
         align-items: center
-        background-color: #EBB2E5
-        height: 74px
-        font-size: 18px
-        padding: 0 40px
+        height: 64px
+        font-size: 16px
+        padding: 0 150px
 
         .logo
-            font-weight: 1000
+            font-size: 24px
 
         a
             text-decoration: none
             color: #000
 
             &:not(:last-child)
-                margin-right: 8px
+                margin-right: 24px
 </style>

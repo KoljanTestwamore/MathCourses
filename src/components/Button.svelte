@@ -9,8 +9,9 @@
 
 <style lang="sass">
     .button
-        background-color: #EBB2E5
+        background-color: #C6F5DB
         border-radius: 20px
         width: 200px
         cursor: pointer
+        border: none
 </style>

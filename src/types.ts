@@ -8,3 +8,9 @@ export enum language {
     RU = 0,
     EN = 1
 }
+
+export interface IGameStep {
+    question: string,
+    rightAnswer: string,
+    wrongAnswers: [string, string, string]
+}
