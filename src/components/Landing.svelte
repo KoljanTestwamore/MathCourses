@@ -60,7 +60,7 @@ import Button from "./Button.svelte";
         <div class="container">
             <div class="title">
                 Математика <span class="highlight">на английском</span> 
-                <br>для детей 5-7 лет 
+                <br>для детей 5-10 лет 
             </div>
             <h class="content">
                 Поможем вашему ребенку развить абстрактное мышление и выучить английский.
@@ -68,7 +68,7 @@ import Button from "./Button.svelte";
             <h class="subcontent">
                 Попробуйте 1 неделю <b>бесплатно</b>
             </h>
-            <Button class="button">
+            <Button class="button" onclick={() => window.scrollTo(0, document.body.scrollHeight)}>
                 Попробовать
             </Button>
             <img src="https://cdn-icons-png.flaticon.com/512/3557/3557694.png" alt="">
@@ -82,7 +82,7 @@ import Button from "./Button.svelte";
                     Что такое <span class="highlight">English Math</span>?
                 </h>
                 <p class="paragraph __first">
-                    <b>Math English</b> - это онлайн-школа развития интеллекта для детей в возрасте от <b>5</b> до <b>7</b> лет.
+                    <b>Math English</b> - это онлайн-школа развития интеллекта для детей в возрасте от <b>5</b> до <b>10</b> лет.
                 </p>
                 <p class="paragraph __second">
                     Вместе с опытными преподавателями мы разработали программу, которая поможет вашему ребенку освоить арифметику и математику, развить логику в игровом формате. 
