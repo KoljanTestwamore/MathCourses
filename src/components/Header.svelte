@@ -7,7 +7,7 @@
 
 <nav class="navigation">
     <div class="logo">
-        English Math
+        EnglishMath
     </div>
     <div>
         <!-- <button on:click={toggleLanguage}>{locale('🇷🇺', '🇬🇧')}</button> -->
