@@ -9,7 +9,7 @@ import KidsModeContainer from "./components/KidsModeContainer.svelte";
 </script>
 
 
-<Router>
+<Router url="https://koljantestwamore.github.io/MathCourses/">
 	<Route path="/" >
 		<Header />
 		<Landing />

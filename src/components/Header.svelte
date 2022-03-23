@@ -10,7 +10,6 @@
         EnglishMath
     </div>
     <div>
-        <!-- <button on:click={toggleLanguage}>{locale('🇷🇺', '🇬🇧')}</button> -->
         <a href="/"><Label values={["О НАС", "ABOUT US"]}/></a>
         <a href="/"><Label values={["КОНТАКТЫ", "CONTACTS"]}/></a>
         <Link to="/game"><Label values={["ВОЙТИ", "LOG IN"]}/></Link>
