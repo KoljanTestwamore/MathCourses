@@ -68,7 +68,7 @@ import Button from "./Button.svelte";
             <h class="subcontent">
                 Попробуйте 1 неделю <b>бесплатно</b>
             </h>
-            <Button class="button" onclick={() => window.scrollTo(0, document.body.scrollHeight)}>
+            <Button class="button" onclick={() => window.scrollTo(0, document.body.scrollHeight - 200)}>
                 Попробовать
             </Button>
             <img src="https://cdn-icons-png.flaticon.com/512/3557/3557694.png" alt="">
