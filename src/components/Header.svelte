@@ -12,7 +12,7 @@
     <div>
         <a href="/"><Label values={["О НАС", "ABOUT US"]}/></a>
         <a href="/"><Label values={["КОНТАКТЫ", "CONTACTS"]}/></a>
-        <Link to="/game"><Label values={["ВОЙТИ", "LOG IN"]}/></Link>
+        <Link to="/MathCourses/game"><Label values={["ВОЙТИ", "LOG IN"]}/></Link>
     </div>
 </nav>
 
