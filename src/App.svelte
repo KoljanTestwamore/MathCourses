@@ -15,7 +15,7 @@
 		<Landing />
 		<Footer />
 	</Route>
-	<Route path="/game" >
+	<Route path="/MathCourses/game" >
 		<KidsModeContainer>
 			<Game questions={questions} />
 		</KidsModeContainer>
