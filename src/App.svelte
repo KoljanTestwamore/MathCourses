@@ -9,7 +9,7 @@
 </script>
 
 
-<Router url="process.env">
+<Router>
 	<Header />
 	<Route path="/" >
 		<Landing />
