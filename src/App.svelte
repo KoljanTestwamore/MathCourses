@@ -3,15 +3,15 @@
 	import Footer from './components/Footer.svelte';
 	import Game from "./components/Game.svelte";
 	import Header from './components/Header.svelte';
-import KidsModeContainer from "./components/KidsModeContainer.svelte";
+	import KidsModeContainer from "./components/KidsModeContainer.svelte";
 	import Landing from './components/Landing.svelte';
 	import {questions} from './stubs';
 </script>
 
 
-<Router url="https://koljantestwamore.github.io/MathCourses/">
+<Router url="process.env">
+	<Header />
 	<Route path="/" >
-		<Header />
 		<Landing />
 		<Footer />
 	</Route>
