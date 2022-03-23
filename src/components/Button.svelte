@@ -1,9 +1,10 @@
 <script lang="ts">
     export let onclick = () => {}
-    export let className = ""
+    export let className = "";
+    export let isActive = true;
 </script>
 
-<button class={"button " + className} on:click={onclick}>
+<button class={"button " + className + (!isActive ? " inactive" : "")} on:click={isActive && onclick}>
     <slot></slot>
 </button>
 
@@ -14,4 +15,7 @@
         width: 200px
         cursor: pointer
         border: none
+
+        &.inactive
+            background-color: gray
 </style>

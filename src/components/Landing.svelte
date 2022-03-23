@@ -375,9 +375,6 @@ import Button from "./Button.svelte";
 
                         &.__second
                             margin-bottom: 36px
-                        
-                        &.__third
-                            margin-bottom: 24px
 
                     & .list
                         color: #333

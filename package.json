@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "rollup -c -s",
+    "dev": "rollup -c -w -s",
     "start": "sirv public --no-clear",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "deploy": "gh-pages -d build -t true"
@@ -37,6 +37,7 @@
     "classnames": "^2.3.1",
     "gh-pages": "^3.2.3",
     "sirv-cli": "^2.0.0",
-    "svelte-loader": "^3.1.2"
+    "svelte-loader": "^3.1.2",
+    "svelte-routing": "^1.6.0"
   }
 }
