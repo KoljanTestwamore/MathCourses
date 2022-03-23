@@ -9,9 +9,9 @@
 </script>
 
 
-<Router>
-	<Header />
+<Router basepath="/MathCourses">
 	<Route path="/" >
+		<Header />
 		<Landing />
 		<Footer />
 	</Route>
